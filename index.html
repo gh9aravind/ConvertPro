@@ -9,6 +9,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+*,*::before,*::after{
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  -webkit-tap-highlight-color:transparent;
+}
+
+/* rename ഫീൽഡിലെ ടെക്സ്റ്റ് ടൈപ്പ് ചെയ്യാനും സെലക്ട് ചെയ്യാനും വേണ്ടി */
+input{
+  -webkit-user-select:text;
+  -moz-user-select:text;
+  user-select:text;
+}
 
 /* ============================================================
    CONVERTPRO — LIQUID GLASS (iOS-style) DESIGN SYSTEM
